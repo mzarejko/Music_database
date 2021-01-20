@@ -11,16 +11,14 @@
   
   ### Encje
   
- User – Tabela zawierająca informacje o użytkowniku, w tym:
- 
+- User – Tabela zawierająca informacje o użytkowniku, w tym:
 	- adres email
 	- wiek	
 	- kraj zamieszkania 
 	- nazwę użytkownika
 	- hasło
 		
-Follow – Tabela zawierająca informacje o tym, który użytkownik obserwuje którego na podstawie numerów id, zawiera:
-
+- Follow – Tabela zawierająca informacje o tym, który użytkownik obserwuje którego na podstawie numerów id, zawiera:
 	- id użytkownika obserwującego
 	- id użytkownika obserowanego
 		
