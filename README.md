@@ -51,3 +51,7 @@
 	- lokalizację wydarzenia
 	- id artysty występującego w evencie
 	- nazwa wydarzenia
+	
+
+
+![alt text](https://github.com/[username]/[reponame]//Music_database/main/image.jpg?raw=true)
