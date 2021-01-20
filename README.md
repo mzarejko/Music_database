@@ -57,3 +57,25 @@
 
 
 ![alt text](../main/127189281_400856931109321_7668519763450585592_n.png?raw=true)
+
+
+### Komendy testowe
+```SQL
+
+1.
+SELECT music.music_id, music.music_URL, score.score FROM music NATURAL JOIN score;
+
+2.
+SELECT music.music_id, music.music_URL, genre.genre FROM music NATURAL JOIN genre;
+
+3.
+SELECT music_id, music_URL, awards, FROM music;
+
+4.
+SELECT artist.firstname, artist.lastname, events.title FROM artist NATURAL JOIN events;
+
+5.
+SELECT user.user_id, user.username, score.score, music.music_id, music.music_URL FROM 
+((user INNER JOIN score ON user.user_id = score.user_id)
+INNER JOIN music ON music.music_id = score.music_id);
+```
