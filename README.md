@@ -2,6 +2,7 @@
 
 ## Konfiguracja programu
   - postgres 13.1
+  - pgcrypto
   
   
   ## Dokumentacja
@@ -54,6 +55,15 @@
 	- id artysty występującego w evencie
 	- nazwa wydarzenia
 	
+
+|  User            |  Follow         |  Playlista     |  Album       | Producer       |  Iterested     |  Events               |
+|------------------|-----------------|----------------|--------------|----------------|----------------|-----------------------|
+| adres email      | id użytkownika  | numery id      | id albumu    | id producenta  | id użytkownika | id wydarzenia         |
+|	           | obserwującego   |                |              |                |                |                       |
+|    wiek	   | id użytkownika  |  nazwy         |nazwę albumu  |nazwę producenta| id eventu      |datę wydarzenia        |
+|kraj zamieszkania | obserowanego    |datę utworzenia |datę wydania  | gatunek        |                |lokalizację wydarzenia |
+|nazwę użytkownika |   		     |   id autora    |id producenta |   datę         |                |   id artysty          |
+|   hasło	   |  		     |   playlisty    |id playlisty  |                |                |występującego w evencie|
 
 
 ![alt text](../main/127189281_400856931109321_7668519763450585592_n.png?raw=true)
