@@ -11,7 +11,7 @@
   
   ### Encje
   
- User – Tabela zawierająca informacje o użytkowniku, w tym:
+ 1.User – Tabela zawierająca informacje o użytkowniku, w tym:
  
 	- adres email
 	- wiek	
