@@ -55,8 +55,6 @@
 	- id artysty występującego w evencie
 	- nazwa wydarzenia
 	
-- Music - Tabela posiada informacje o nagraniach muzycznych
-	- 
 	
 
 
