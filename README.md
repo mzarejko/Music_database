@@ -82,7 +82,7 @@ SELECT music.music_id, music.music_URL, score.score FROM music NATURAL JOIN scor
 --wyswietla id utworu, url oraz punkty utworu
 
 SELECT * FROM user_account WHERE password = crypt('passwd', password);
---wyswietla 
+--wyswietla użytkownika po wpisanu hasła
 
 SELECT music.music_id, music.music_URL, genre.genre FROM music NATURAL JOIN genre;
 --wyswietla id utworu, url oraz gatunek utworu
