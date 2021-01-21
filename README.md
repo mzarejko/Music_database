@@ -1,7 +1,8 @@
 # Music_database
 
-## Konfiguracja programu
+## Konfiguracja bazy danych
   - postgres 13.1
+  -  pgcrypto 
   
   
   ## Dokumentacja
